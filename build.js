@@ -217,7 +217,7 @@ task("test-doc", ["make-doc", "libjass.js"], function (callback) {
 	});
 });
 
-task("dist", ["libjass.js", "libjass.min.js", "test", "test-browser", "demo", "doc"], function (callback) {
+task("dist", ["libjass.js", "libjass.min.js", "doc"], function (callback) {
 	var inputFiles = [
 		"./README.md", "./CHANGELOG.md", "./LICENSE",
 		"./lib/libjass.js", "./lib/libjass.js.map",
