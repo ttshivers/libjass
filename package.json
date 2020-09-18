@@ -1,5 +1,5 @@
 {
-  "name": "libjass",
+  "name": "synclounge-libjass",
   "version": "0.13.0",
   "description": "A library to render ASS subtitles on HTML5 video in the browser.",
   "keywords": [
